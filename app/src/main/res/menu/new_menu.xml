@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Home"
+            />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/baseline_add_shopping_cart_24"
+            android:title="Add Cart"
+            />
+    </group>
+    <item android:title="">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_log_in"
+                android:icon="@drawable/baseline_login_24"
+                android:title="Login"
+
+                />
+            <item
+                android:id="@+id/nav_log_out"
+                android:icon="@drawable/baseline_logout_24"
+                android:title="Logout"
+
+                />
+                <item
+                    android:id="@+id/nav_About_Us"
+                    android:icon="@drawable/aboutas"
+                    android:title="About Us"
+
+                    />
+
+            </group>
+
+
+        </menu>
+
+    </item>
+
+    <item android:title="">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/baseline_exit_to_app_24"
+                android:title="Exit"
+
+                />
+            </group>
+
+
+        </menu>
+
+    </item>
+
+</menu>

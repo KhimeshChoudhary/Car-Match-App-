@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".PaymentActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:id="@+id/payment_toolbar"
+        android:elevation="4dp"
+        android:background="@color/blue"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="Payments"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <!-- EditText for entering a name -->
+    <EditText
+        android:id="@+id/enterName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:layout_below="@+id/payment_toolbar"
+        android:inputType="text"
+        tools:ignore="Autofill" />
+
+    <!-- EditText for entering an address -->
+    <EditText
+        android:id="@+id/enterAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enterName"
+        android:hint="Enter Address"
+        android:inputType="textPostalAddress"
+        tools:ignore="Autofill" />
+
+    <!-- EditText for entering an email ID -->
+    <EditText
+        android:id="@+id/enterEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enterAddress"
+        android:hint="Enter Email ID"
+        android:inputType="textEmailAddress"
+        tools:ignore="Autofill" />
+
+    <!-- EditText for entering your model name -->
+    <EditText
+        android:id="@+id/enterModelName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enterEmail"
+        android:hint="Enter Model Name"
+        android:inputType="text"
+        tools:ignore="Autofill" />
+    <EditText
+        android:id="@+id/entreamount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enterModelName"
+        android:hint="Enter Amount"
+        android:inputType="numberDecimal"
+        tools:ignore="Autofill" />
+    <EditText
+        android:id="@+id/entrePhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/entreamount"
+        android:hint="Enter Phone Number"
+        android:inputType="number"
+        tools:ignore="Autofill" />
+
+    <!-- Button for initiating payment with Google Pay -->
+    <Button
+        android:id="@+id/btnPay"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_below="@id/entrePhoneNumber"
+        android:layout_centerInParent="true"
+        android:text="Pay Now" />
+
+</RelativeLayout>

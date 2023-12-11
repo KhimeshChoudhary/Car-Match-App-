@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pink">#EB0AC7</color>
+    <color name="blue">#4C7DFE</color>
+    <color name="little_blue">#59A8ED</color>
+    <color name="Green">#16DC30</color>
+    <color name="Dark_blue">#0095D8</color>
+    <color name="light_green">#90E887</color>
+    <color name="light_blue">#44A6B3</color>
+    <color name="black_gold">#E5EC3C</color>
+    <color name="gold">#E7CF4D</color>
+
+
+
+
+
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--drawable id-->
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    tools:context=".HomeUser_3"
+    >
+<!--   nav_view id-->
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+
+        android:id="@+id/nav_view"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header_4"
+        app:menu="@menu/new_menu"
+        android:background="@color/white"
+        app:itemTextColor="@color/blue"
+        app:itemIconTint="@color/blue">
+
+
+    </com.google.android.material.navigation.NavigationView>
+<!--    Tool bar id-->
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+<!--                tool bar-->
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:id="@+id/toolbar"
+                android:elevation="4dp"
+                android:background="@color/blue"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                android:text="Car Match"
+                android:backgroundTint="@color/blue"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                tools:ignore="MissingConstraints" />
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/home_container"
+                    tools:ignore="MissingConstraints" />
+
+
+
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </ScrollView>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

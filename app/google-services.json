@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "402919601658",
+    "project_id": "carmatch-2d03b",
+    "storage_bucket": "carmatch-2d03b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402919601658:android:924802ab04acc21bf22043",
+        "android_client_info": {
+          "package_name": "com.example.car_match"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402919601658-gjlqn697m713rbjsl7k7dhhbkttdcgta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1NWR3l8qPM5b1IlX8ZCL0qAl6j0kDRsY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402919601658-gjlqn697m713rbjsl7k7dhhbkttdcgta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
