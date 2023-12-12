@@ -1,4 +1,4 @@
-//Home Page
+Home Page
 
 ![image](https://github.com/KhimeshChoudhary/Car-Match-App-/assets/133648905/a4d8fa54-8349-4b43-b8e5-d5c2d64df8e9)
 
@@ -31,11 +31,14 @@ Razorpay
 
 ![image](https://github.com/KhimeshChoudhary/Car-Match-App-/assets/133648905/371a3d95-7900-4015-a1a4-1364365bfe24)
 
-//Admin
-//HOme screen
+Admin
+
+Home screen
+
 ![photo_6325472686901410115_y](https://github.com/KhimeshChoudhary/Car-Match-App-/assets/133648905/81a22ca3-55a8-4e6d-a9fc-50dc41e58e11)
 
 Add Items
+
 ![photo_6325472686901410119_y](https://github.com/KhimeshChoudhary/Car-Match-App-/assets/133648905/bfb4c73b-6f3c-4f9c-8edd-24b51bcc1b09)
 
 ![photo_6325472686901410118_y](https://github.com/KhimeshChoudhary/Car-Match-App-/assets/133648905/be77bd08-3990-4801-a4a9-f4e5681ef188)
@@ -43,9 +46,11 @@ Add Items
 ![photo_6325472686901410117_y](https://github.com/KhimeshChoudhary/Car-Match-App-/assets/133648905/fe3502f5-d9ed-4567-93de-1a4c60d48cb0)
 
 Add Items To see On Home Screen
+
 ![photo_6325472686901410121_y](https://github.com/KhimeshChoudhary/Car-Match-App-/assets/133648905/15e8ac63-22f7-4d4c-821b-5053f54913de)
 
 Menu 
+
 ![photo_6325472686901410116_y](https://github.com/KhimeshChoudhary/Car-Match-App-/assets/133648905/9714ba54-8579-419c-b5b5-e66d1ae800f7)
 
 
